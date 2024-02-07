@@ -1,0 +1,44 @@
+.Header {
+	position: fixed;
+	width: 100%;
+	left: 0;
+	top: 0;
+	z-index: 9999;
+	box-shadow: 0 0 100px 0 black;
+	background: #0000ffc0;
+	backdrop-filter: blur(4px);
+	.content {
+		padding-block: 20px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		.logo {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
+			img {
+				width: 100%;
+				max-width: 65px;
+				height: auto;
+			}
+		}
+
+		nav {
+			ul {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				gap: 30px;
+
+				li {
+					a {
+						font-size: 40px;
+						color: white;
+					}
+				}
+			}
+		}
+	}
+}

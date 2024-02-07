@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo&display=swap");
+::-webkit-scrollbar {
+	display: none;
+}
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Arvo", serif;
+}
+
+ol,
+ul {
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+li {
+	list-style: none;
+}
+
+.container {
+	margin-inline: auto;
+	padding-inline: 20px;
+	width: 100%;
+	max-width: 1280px;
+}

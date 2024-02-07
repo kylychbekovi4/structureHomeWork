@@ -1,0 +1,121 @@
+.MainPage {
+	margin-top: 20px;
+	.mainParent {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		.text_first {
+			font-size: 60px;
+			font-weight: 600;
+		}
+
+		.text_second {
+			margin-top: 40px;
+			font-size: 20px;
+			width: 600px;
+			font-weight: 550;
+			line-height: 30px;
+		}
+	}
+
+	.text_card {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-top: 50px;
+
+		h1 {
+			font-size: 70px;
+		}
+
+		p {
+			font-size: 20px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+	}
+
+	.texts {
+		margin-top: 40px;
+		width: 500px;
+		display: flex;
+		flex-direction: column;
+		gap: 30px;
+
+		h1 {
+			font-size: 60px;
+		}
+
+		p {
+			font-size: 20px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			font-weight: 550;
+		}
+	}
+	.imgs {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-top: 30px;
+
+		img {
+			width: 100%;
+			max-width: 400px;
+			height: auto;
+		}
+
+		.img {
+			position: relative;
+			h2 {
+				left: 10px;
+				top: 10px;
+				position: absolute;
+				z-index: 2;
+				color: white;
+				text-shadow: 0px 0px 5px black;
+				font-size: 40px;
+			}
+		}
+	}
+
+	.card_texts {
+		margin-top: 40px;
+
+		.comment_cards {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			line-height: 30px;
+			margin-top: 50px;
+			gap: 20px;
+		}
+
+		h1 {
+			font-size: 60px;
+		}
+	}
+
+	.Links {
+		margin-top: 40px;
+		margin-bottom: 40px;
+
+		.links {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			margin-top: 40px;
+
+			p {
+				width: 200px;
+			}
+		}
+
+		h1 {
+			font-size: 60px;
+		}
+	}
+}

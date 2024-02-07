@@ -1,0 +1,35 @@
+.HomePage {
+	.testdiv {
+		display: flex;
+		justify-content: space-between;
+		.content {
+			.results {
+				display: flex;
+				flex-wrap: wrap;
+				gap: 25px;
+				.card {
+					padding: 20px;
+					text-align: start;
+					margin: 10px;
+					border: 1px solid black;
+					border-radius: 10px;
+				}
+			}
+		}
+		.test {
+			display: flex;
+			min-height: 100vh;
+			.exit_button {
+				:hover {
+					background: red;
+				}
+				button {
+					font-size: 24px;
+					padding: 20px;
+					border-radius: 20px;
+					border: none;
+				}
+			}
+		}
+	}
+}

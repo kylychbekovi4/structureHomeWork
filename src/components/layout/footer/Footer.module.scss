@@ -1,0 +1,14 @@
+.Footer {
+	width: 100%;
+	left: 0;
+	top: 0;
+	box-shadow: 0 0 10px 0 black;
+	margin-top: 20px;
+
+	.content {
+		padding-block: 40px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+}

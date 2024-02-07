@@ -1,0 +1,57 @@
+.RegistrationPage {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	.content {
+		.parent {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			border-radius: 10px;
+			width: 420px;
+			height: 600px;
+			border: 1px solid black;
+			margin: 0 auto;
+			box-shadow: 0 0 20px 0 blue;
+			flex-direction: column;
+			gap: 60px;
+			border: none;
+			.logo {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				img {
+					width: 100%;
+					max-width: 60px;
+					height: auto;
+				}
+			}
+
+			.Inputs {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				flex-direction: column;
+				gap: 40px;
+
+				input {
+					width: 320px;
+					height: 45px;
+					border-radius: 10px;
+				}
+			}
+			.button {
+				:hover {
+					background: #0000ff;
+				}
+				button {
+					width: 200px;
+					height: 40px;
+					border-radius: 10px;
+					border: none;
+					font-weight: 900;
+				}
+			}
+		}
+	}
+}
